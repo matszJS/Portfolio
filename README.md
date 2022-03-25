@@ -16,4 +16,4 @@ In this repository you will see the use of:
 
 Images of Website:
 
-![HOMEWTBG!](./frontend/src/assets/home-dark-bg.png)
+![HOMEwhitebg!](home-dark-bg.png)
