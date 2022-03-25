@@ -1,0 +1,56 @@
+.app__darkmode{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 100;
+    label{
+        position: relative;
+        width: 30px;
+        display: block;
+        height: 30px;
+        cursor: pointer;
+        border-radius: 50%;
+        .btn{
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: #303030;
+            border-radius: 50%;
+            box-shadow: 0 3px 4px rgb(30, 30, 30),
+                        inset 0 -2px 5px rgb(30, 30, 30),
+                        inset 0 -2px 2px rgba(255,255,255,.5),
+                        0 0 0 2px rgb(29, 29, 29),
+                        0 0 0 5px #1b1b1b,
+                        0 0 0 5.5px #242424; 
+        }
+
+        input[type="checkbox"]{
+            --webkit-appearance: none;
+            width: 100%;
+            height: 100%;
+            
+            &:checked ~ .icon{
+                color: #ffffff;
+                text-shadow: 0 0 15px #00a1ff,
+                             0 0 30px #00a1ff 
+            }
+
+        }
+        .icon{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 10px;
+            color: #030303;
+            height: 80%;
+            width: 80%;
+            transition: all .3s ease;
+        }
+    }  
+
+
+}
