@@ -8,7 +8,6 @@ In this repository you will see the use of:
 * Sanity
 * SASS
 * Higher Order Components
-* React-router
 * React-redux
 * Framer-motion
 * EmailJS 
