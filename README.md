@@ -1,6 +1,7 @@
 ## REACT Full Responsive Animated Portfolio 
 
 This repository contains all the code of this portfolio.
+View Demo: https://matjs.netlify.app/
 
 In this repository you will see the use of:
 
@@ -14,8 +15,6 @@ In this repository you will see the use of:
 * Type-writter
 
 ---
-
-View Demo: https://agency-website-eta.vercel.app/
 
 Images of Website:
 
