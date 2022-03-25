@@ -46,7 +46,7 @@ const Perfil = () => {
                     <h2 >In my <span>free time..</span></h2>
                     <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro excepturi vero cupiditate possimus natus, quisquam rem illo nihil iure eius.</p>
                 </motion.div>
-                <motion.img src={images.profile} alt="aboutImage" />
+                <motion.img src={images.profile02} alt="aboutImage" />
             </div>
             <motion.div variants={container} initial='hidden' animate='show' className="exp">
                 <div className='circle'>
