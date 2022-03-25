@@ -16,4 +16,4 @@ In this repository you will see the use of:
 
 Images of Website:
 
-![HOMEwhitebg!](home-dark-bg.png)
+![HOMEwhitebg!](https://user-images.githubusercontent.com/96997905/160051987-b5f49565-c3a4-42cb-bc58-308a47d9662c.pngg)
