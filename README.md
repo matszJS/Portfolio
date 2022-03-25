@@ -12,3 +12,8 @@ In this repository you will see the use of:
 * React-redux
 * Framer-motion
 * EmailJS 
+* Type-writter
+
+Images of Website:
+
+![HOME-WT-BG](home-dark-bg.png)
