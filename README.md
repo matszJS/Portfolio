@@ -16,4 +16,4 @@ In this repository you will see the use of:
 
 Images of Website:
 
-![HOME-WT-BG](home-dark-bg.png)
+![HOMEWTBG!](home-dark-bg.png)
