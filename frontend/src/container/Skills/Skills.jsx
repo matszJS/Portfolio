@@ -30,7 +30,7 @@ const Skills = () => {
   return (
     <div className='app__skillsC' id='skills'style={{ background: darkmode ? '#ffffff':'#242424', color:  darkmode ? '#242424': '#ffffff'}}>
     <motion.h2 className="head-text" whileInView={{ y: [100 , 50, 0], opacity: [0,0,1] }} transition={{duration:0.5,type:'tween'}}>Skills <span style={{color:'#7764ff'}}>&</span> Experiences</motion.h2>
-
+      <motion.small  whileInView={{ y: [100 , 50, 0], opacity: [0,0,1] }} transition={{duration:0.5,type:'tween'}}>( Place the cursor over the company to see the description )</motion.small>
     <div className="app__skills-container">
       <motion.div className="app__skills-list">
         {skills.map((skill) => (

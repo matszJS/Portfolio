@@ -44,7 +44,7 @@ const Perfil = () => {
                     className="content"
                     >
                     <h2 >In my <span>free time..</span></h2>
-                    <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro excepturi vero cupiditate possimus natus, quisquam rem illo nihil iure eius.</p>
+                    <p >I like to read and learn new skills so I can apply them in my projects. In a quest for always keeping my self updated, I read books and articles. </p>
                 </motion.div>
                 <motion.img src={images.profile02} alt="aboutImage" />
             </div>
@@ -52,23 +52,23 @@ const Perfil = () => {
                 <div className='circle'>
                     <IoLogoJavascript color='yellow'/>
                     <h4>Projects</h4>
-                    <p>80+ Completed</p>
+                    <p>50+ Completed</p>
                 </div>
                 <div className='circle'>
                     <BsFillPeopleFill color='#ee9d33'/>
                     <h4>Clients</h4>
-                    <p>30+ Worldwide</p>
+                    <p>30+ in Chile</p>
                 </div>
                 <div className='circle'>
                     <GiSandsOfTime color='#0090d3'/>
-                    <h4>Projects</h4>
-                    <p>80+ Completed</p>
+                    <h4>Experience</h4>
+                    <p>3+ Years</p>
                 </div>
             </motion.div>
         </motion.div>
         <motion.div className="app__about-intereses"  whileInView={{ opacity: [0  ,1] }}
       transition={{ duration: 0.5,type:'tween' }}>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptates illum laudantium aliquid rerum inventore eius dolorem aspernatur harum, soluta dolore vitae, error, incidunt neque odit eveniet repellat quod asperiores!</p>
+             <p>I am a university student, so I am still learning. I have 3 years of experience building responsive websites and web applications. I've worked with a range a technologies in the web development world. From Back-end To Design </p>
         </motion.div>
       </div>
     </div>

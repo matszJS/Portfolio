@@ -57,11 +57,11 @@ const Footer = () => {
               <input placeholder='Username' name='username' {...register("username", {
                     required: {
                       value: true,
-                      message: "Necesitas este campo"
+                      message: "You need to complete this field"
                     },
                     pattern: {
                       value: /[A-Za-z]/,
-                      message: "El formato no es correcto"
+                      message: "The format is not correct"
                     }
                   })}/>
 
@@ -72,7 +72,7 @@ const Footer = () => {
               <input name='subject' placeholder='Subject' {...register("subject", {
                 required: {
                   value: true,
-                  message: "Necesitas este campo"
+                  message: "You need to complete this field"
                 }
               })} />
               {errors.subject && <span className={ `${errors.subject && 'text-danger'}`}>{errors.subject.message}</span>}
@@ -82,7 +82,7 @@ const Footer = () => {
                       {...register("email", {
                         required: {
                           value: true,
-                          message: "Necesitas este campo"
+                          message: "You need to complete this field"
                         },
                         pattern: {
                           value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
@@ -96,7 +96,7 @@ const Footer = () => {
               <textarea name="message" placeholder='Message' rows="5" cols='5' {...register("message", {
                       required: {
                         value: true,
-                        message: "Necesitas este campo"
+                        message: "You need to complete this field"
                       },
                       maxLength:{
                         value:400,

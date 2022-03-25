@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion'
 import { useContext } from 'react' 
 import styled from 'styled-components'
-import { BsTwitter, BsInstagram } from 'react-icons/bs';
-import { FaFacebookF } from 'react-icons/fa';
+//import { BsInstagram } from 'react-icons/bs';
+//import { FaFacebookF } from 'react-icons/fa';
 import { ThemeContext } from '../context'
+import { GoMarkGithub } from 'react-icons/go';
+import { AiTwotoneMail } from 'react-icons/ai'
 
 const Icons = styled.div`
 display: flex;
@@ -56,28 +58,24 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1.2}}
             >
-                    <BsTwitter width={25} height={25} fill={darkmode ? '#111':'#fff'} />
+                <a href="https://github.com/matszJS?tab=repositories" target="_blank">
+                    <GoMarkGithub style={{height:'1.5em', width:'1.5em'}} fill={darkmode ? '#111':'#fff'} />
+                </a>
             </motion.div>
             <motion.div
             initial={{transform:"scale(0)"}}
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1.4}}
             >
-                    <FaFacebookF width={25} height={25} fill={darkmode ? '#111':'#fff'}/>
+                <a href="mailto:msalazarj712@gmail.com" target="_blank">
+                    <AiTwotoneMail style={{height:'1.5em', width:'1.5em'}} fill={darkmode ? '#111':'#fff'} />
+                </a>
             </motion.div>
-            <motion.div
-            initial={{transform:"scale(0)"}}
-            animate={{scale:[0,1,1.5,1]}}
-            transition={{type:'spring', duration:1, delay:1.6}}
-            >
-                    <BsInstagram width={25} height={25} fill={darkmode ? '#111':'#fff'} />
-            </motion.div>
-
             <Line
                 initial={{height:0}}
                 animate={{height: '8rem'}}
                 transition={{type:'spring', duration:1, delay:0.8}}
-                style={{ backgroundColor: darkmode ? '#111':'#fff'}}
+                style={{ backgroundColor: darkmode ? '#111':'#fff', cursor: 'pointer'}}
 
             />
         </Icons>
